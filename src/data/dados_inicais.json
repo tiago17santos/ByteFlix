@@ -180,6 +180,33 @@
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
       ]
+    },
+    {
+      "titulo": "Canais diversos",
+      "cor": "#FF1FF1", 
+      
+      "videos": [
+        {
+          "titulo": "Os Lugares Mais Raros da Terra Que São Extremamente Limpos",
+          "url": "https://www.youtube.com/watch?v=qkhsbglmVzw"
+        },
+        {
+          "titulo": "PIRÂMIDES EGÍPCIAS - Como foram CONSTRUÍDAS as PIRÂMIDES EGÍPCIAS.",
+          "url": "https://www.youtube.com/watch?v=-CGQMBV3_2A"
+        },
+        {
+          "titulo": "10 lugares incríveis que parecem ter saído de um conto de fadas",
+          "url": "https://www.youtube.com/watch?v=2vdAlfumI8A"
+        },
+        {
+          "titulo": "As 35 Estradas mais Perigosas do Mundo",
+          "url": "https://www.youtube.com/watch?v=U2t_ei-b4-g"
+        },
+        {
+          "titulo": "AS 10 MAIORES RODOVIAS DO BRASIL",
+          "url": "https://www.youtube.com/watch?v=iXOc5jvG1Pg"
+        }
+      ]
     }
   ]
 }

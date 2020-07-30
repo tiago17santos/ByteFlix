@@ -44,6 +44,9 @@ function Home() {
       <Carousel
         category={dados_iniciais.categorias[5]}
       />
+      <Carousel
+        category={dados_iniciais.categorias[6]}
+      />
 
       <Footer />
     </div>
