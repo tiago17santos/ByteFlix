@@ -1,51 +1,49 @@
 import React from 'react';
 import Menu from '../../components/Menu';
-import dados_iniciais from '../../data/dados_inicais.json';
+import dadosIniciais from '../../data/dados_inicais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
-
-
 function Home() {
   return (
-    <div style = {{background: '#141414'}}>
+    <div style={{ background: '#141414' }}>
       <Menu />
-      <BannerMain 
+      <BannerMain
 
-        videoTitle={dados_iniciais.categorias[0].videos[0].titulo}
-        url={dados_iniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
-      />
-      
-      <Carousel
-        ignoreFirstVideo
-        category={dados_iniciais.categorias[0]}
-      />
-      
-      <Carousel
-        ignoreFirstVideo
-        category={dados_iniciais.categorias[1]}
+        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
+        url={dadosIniciais.categorias[0].videos[0].url}
+        videoDescription="O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"
       />
 
       <Carousel
         ignoreFirstVideo
-        category={dados_iniciais.categorias[2]}
+        category={dadosIniciais.categorias[0]}
       />
 
       <Carousel
-        category={dados_iniciais.categorias[3]}
-      />      
+        ignoreFirstVideo
+        category={dadosIniciais.categorias[1]}
+      />
 
       <Carousel
-        category={dados_iniciais.categorias[4]}
-      />      
+        ignoreFirstVideo
+        category={dadosIniciais.categorias[2]}
+      />
 
       <Carousel
-        category={dados_iniciais.categorias[5]}
+        category={dadosIniciais.categorias[3]}
+      />
+
+      <Carousel
+        category={dadosIniciais.categorias[4]}
+      />
+
+      <Carousel
+        category={dadosIniciais.categorias[5]}
       />
       <Carousel
-        category={dados_iniciais.categorias[6]}
+        category={dadosIniciais.categorias[6]}
       />
 
       <Footer />
